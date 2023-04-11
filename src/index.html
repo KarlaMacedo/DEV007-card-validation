@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    
+    <header>
+      <center>
+        <h1>DoggyCare 🐕</h1>
+        <h2>Pago de servicios</h2>
+      </center>
+      
+    </header>
+    <main>
+      <center>
+        <!--Numero de tarjeta-->
+        <section class="creditNumber" id="creditNumber">
+          <label class="labelCreditNumber" id="labelCreditNumber"> <b>Número de tarjeta</b> </label>
+          <input type="text" class="inputCreditNumber" id="inputCreditNumber" minlength="13" maxlength="18" placeholder=" XXXX XXXX XXXX XXXX XX" required>
+        </section>
+        <br>
+        <br>
+        <section class="buttonCreditNumber" id="buttonCreditNumber">
+          <button class="buttonCreditNumber" id="buttonCreditNumber"> VALIDAR TARJETA </button>
+        </section>
+      </center>
+    </main>
+    <footer>
+      <label class="place" id="place"> 🐕 © 2023 DoggyCare, Inc. </label>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
