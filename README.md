@@ -59,7 +59,7 @@ la tarjeta de crédito.
 
 Clientes de la marca DoogyCare🐕© 
 
-![Logo](\images\Logo.png)
+![Logo](https://github.com/KarlaMacedo/DEV007-card-validation/blob/main/images/Logo.png)
 
 ## 4. Objetivos de usuarios en relación con el producto
 
@@ -74,14 +74,14 @@ servicios que ofrece la marca:
 * Tienda de productos para mascotas
 * Consulta veterinaria online 
 
-![Servicios](\images\servicios.png)
+![Servicios](https://github.com/KarlaMacedo/DEV007-card-validation/blob/main/images/servicios.png)
 
 ## 5. Solucion de problemas del usuario con el producto
 
 Corroborar si el número de tarjeta de crédito proporcionado es válido, para 
 continuar con el pago de los servicios solicitados para su mascota.
 
-![Producto](\images\producto.png)
+![Producto](https://github.com/KarlaMacedo/DEV007-card-validation/blob/main/images/Producto.png)
 
 ## 6. Consideraciones generales
 
