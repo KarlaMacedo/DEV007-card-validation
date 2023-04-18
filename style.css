@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  /* FORMATO FONDO*/
+  html {
+    background-image: url("fondos.png");/* Ubicación de la imagen */
+    background-position: center center;/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat;/* Para que la imagen de fondo no se repita */
+    background-attachment: fixed;/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-size: cover;/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-color: lightslategrey ;/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  }
+  
+  /* FORMATO TÍTULO */
+  h1{
+    font-size: 45px; /* Tamaño texto */
+    color: #FE9898; 
+    font-family: Paloseco; /* fuente de la letra */
+  
+  }
+    
+  /* FORMATO SUBTITULO */
+  h2 {
+      font-size: 25px; /* Tamañotexto */
+      color: #998CEB;
+  }
+
+  /*FORMATO PARRAFO EXPLICACION*/
+  .explanation {
+    font-family: Paloseco; /* fuente de la letra */
+    color: black;
+    font-size: 18px; /* Tamañotexto */
+  }
+  
+  /*FORMATO ETIQUETA NUMERO DE TARJETA*/
+  .labelCreditNumber {
+    font-family: Paloseco; /* fuente de la letra */
+    color: black;
+    font-size: 18px; /* Tamañotexto */
+  }
+ 
+  /*FORMATO INPUT NUMERO DE TARJETA*/
+  input {
+    border: solid; /* Estilo del borde */
+    font-size: 14px; /*tamaño del texto del input*/
+    height: max-content; /*cantidad de caracteres que recibe*/
+    padding: 1em; /*ancho del recuadro*/
+    width: 16em; /*largo del recuadro*/
+    background-color: #0ee9e9;
+    color: #64696d;
+    margin-bottom: 2px;
+    border-radius: 18px; /* Añadir esquinas curvadas */
+    text-align: center; /*Texto centrado*/
+  }
+
+  input:focus { 
+    background-color: #FFDF6B;
+    color: #000;
+    border: 10px solid #0ee9e9;
+      }
+
+  /*FORMATO BOTON PARA VALIDAR TARJETA*/
+  button {
+    font-family: serif;
+    background-color: #C2F784;
+    min-height: 50px; /* alto del boton */
+    min-width: 160px; /* ancho del boton */
+    color: black; /* Color del texto */
+    border-color: #FFDF6B; /* Color del borde */
+    border-style: solid; /* Estilo del borde */
+    border-bottom-width: thick; /* Grosor del borde */
+    border-radius: 18px; /* Añadir esquinas curvadas */
+    text-align: center; /*Texto centrado*/
+    font-size:15px; /*tamaño del texto del boton*/
+  }
+
+  /*SOMBRA BOTON CUANDO TE POSICIONAS ENCIMA función obtenida de una pagina*/
+  /* :hover SIRVE PARA QUE HAGA ALGO CUANDO TE POCISIONAS ENCIMA SIN DAR CLICK*/
+  button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+
+  /*ETIQUETA DE RESPUESTA*/
+  .answer {
+    font-family: Paloseco; /* fuente de la letra */
+    color: red;
+    font-weight: bold;
+    font-size: 20px; /* Tamañotexto */
+  }
+
+  /*ETIQUETA DE RESPUESTA*/
+  .review {
+    font-family: Paloseco; /* fuente de la letra */
+    color: red;
+    font-weight: bold;
+    font-size: 20px; /* Tamañotexto */
+  }
+
+  /*FORMATO FOOTER*/
+  .place {
+    position:fixed; /* Se mantiene el footer en la parte inferior de la página */
+    left:0px; /*Espacio margen izquierdo*/
+    bottom:0px; /*Espacio margen inferior*/
+    background:#999;
+    }

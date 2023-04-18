@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--ENCABEZADO-->
+    <header>
+      <center>
+        <h1>DoggyCare 🐕</h1>
+        <h2>Pago de servicios</h2>
+      </center>
+    </header>
+    <main>
+      <center>
+        <!--NUMERO DE TARJETA-->
+        <section class="creditNumber" id="creditNumber">
+          <p class="explanation" id="explanation">Para continuar con el pago, valida el número de tu tarjeta de crédito</p>
+          <label class="labelCreditNumber" id="labelCreditumber"> <b>Número de tarjeta</b><!--negritas--> </label> 
+          <input type="text" class="inputCreditNumber" id="inputCreditNumber" name="inputCreditNumber" placeholder=" XXXX XXXX XXXX XXXX XX" required> <!--placeholder para que salga un contenido dentro del input y despues desaparezca en cuando comiences a escribir-->     
+        </section>
+        <br>
+        <!--BOTON VALIDAR-->
+        <section class="buttonCreditNumber" id="button">
+          <button class="buttonCreditNumber" id="buttonCreditNumber"> VALIDAR TARJETA </button>
+        </section>
+        <br>
+        <!--ETIQUETA CON RESPUESTA DE VALIDACIÓN-->
+        <section class="answer" id="answerValidation">
+          <label class="answer" id="answer"><b></b></label>
+          <label class="review" id="review"><b></b></label>
+        </section>
+      </center>
+    </main>
+    <!--PIE DE PÁGINA-->
+    <footer>
+      <label class="place" id="place"> 🐕 © 2023 DoggyCare, Inc. </label>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
