@@ -1,6 +1,6 @@
 html {
-    height: 100dvw;
-    width: 100dvw;
+    height: 100%;
+    width: 100%;
   }
   
   
@@ -16,7 +16,7 @@ html {
   
   /* FORMATO TÍTULO */
   h1{
-    font-size: 6dvw; /* Tamaño texto */
+    font-size: 45px; /* Tamaño texto */
     color: #FE9898; 
     font-family: Paloseco; /* fuente de la letra */
   
@@ -24,21 +24,28 @@ html {
     
   /* FORMATO SUBTITULO */
   h2 {
-      font-size: 3dvw; /* Tamañotexto */
+      font-size: 25px; /* Tamañotexto */
       color: #998CEB;
+  }
+
+  /*FORMATO PARRAFO EXPLICACION*/
+  .explanation {
+    font-family: Paloseco; /* fuente de la letra */
+    color: black;
+    font-size: 18px; /* Tamañotexto */
   }
   
   /*FORMATO ETIQUETA NUMERO DE TARJETA*/
   .labelCreditNumber {
     font-family: Paloseco; /* fuente de la letra */
     color: black;
-    font-size: 1.7dvw; /* Tamañotexto */
+    font-size: 18px; /* Tamañotexto */
   }
  
   /*FORMATO INPUT NUMERO DE TARJETA*/
   input {
     border: solid; /* Estilo del borde */
-    font-size: 1dvw; /*tamaño del texto del input*/
+    font-size: 14px; /*tamaño del texto del input*/
     height: max-content; /*cantidad de caracteres que recibe*/
     padding: 1em; /*ancho del recuadro*/
     width: 16em; /*largo del recuadro*/
@@ -59,21 +66,38 @@ html {
   button {
     font-family: serif;
     background-color: #C2F784;
-    min-height: 4em; /* alto del boton */
-    min-width: 15em; /* ancho del boton */
+    min-height: 50px; /* alto del boton */
+    min-width: 160px; /* ancho del boton */
     color: black; /* Color del texto */
     border-color: #FFDF6B; /* Color del borde */
     border-style: solid; /* Estilo del borde */
     border-bottom-width: thick; /* Grosor del borde */
     border-radius: 18px; /* Añadir esquinas curvadas */
     text-align: center; /*Texto centrado*/
-    font-size:1dvw; /*tamaño del texto del boton*/
+    font-size:15px; /*tamaño del texto del boton*/
   }
-  
+
   /*SOMBRA BOTON CUANDO TE POSICIONAS ENCIMA función obtenida de una pagina*/
   /* :hover SIRVE PARA QUE HAGA ALGO CUANDO TE POCISIONAS ENCIMA SIN DAR CLICK*/
   button:hover {
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+
+  /*ETIQUETA DE RESPUESTA*/
+  .answer {
+    font-family: Paloseco; /* fuente de la letra */
+    color: red;
+    font-weight: bold;
+    font-size: 20px; /* Tamañotexto */
+  }
+
+  /*ETIQUETA DE RESPUESTA*/
+  .review {
+    font-family: Paloseco; /* fuente de la letra */
+    color: red;
+    font-weight: bold;
+    font-size: 20px; /* Tamañotexto */
+  }
 
   /*FORMATO FOOTER*/
   .place {
