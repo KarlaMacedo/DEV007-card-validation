@@ -59,7 +59,7 @@ la tarjeta de crédito.
 
 Clientes de la marca DoogyCare🐕© 
 
-![Logo](https://github.com/KarlaMacedo/DEV007-card-validation/blob/main/images/Logo.png)
+![Logos](https://github.com/KarlaMacedo/DEV007-card-validation/blob/main/images/Logos.png)
 
 ## 4. Objetivos de usuarios en relación con el producto
 
