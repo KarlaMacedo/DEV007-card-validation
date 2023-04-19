@@ -83,15 +83,23 @@ html {
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 
-  /*ETIQUETA DE RESPUESTA*/
-  .answer {
+  /*ETIQUETA DE RESPUESTA A VALIDACIÓN*/
+  .answerInvalid {
     font-family: Paloseco; /* fuente de la letra */
     color: red;
     font-weight: bold;
     font-size: 20px; /* Tamañotexto */
   }
 
-  /*ETIQUETA DE RESPUESTA*/
+  /*ETIQUETA DE RESPUESTA A VALIDACIÓN*/
+  .answerValid {
+    font-family: Paloseco; /* fuente de la letra */
+    color: green;
+    font-weight: bold;
+    font-size: 20px; /* Tamañotexto */
+  }
+
+  /*ETIQUETA DE RESPUESTA A REVISIÓN*/
   .review {
     font-family: Paloseco; /* fuente de la letra */
     color: red;

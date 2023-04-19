@@ -10,10 +10,10 @@ document.getElementById ("buttonCreditNumber").addEventListener ("click", functi
     //VALIDACIÓN TARJETA
     const validation = validator.isValid (document.getElementById("inputCreditNumber").value);//en la variable validation alamacenar la información que se obtiene al mandar a llamar el método isValid de la variable validator contenida en el archivo validator.js y aplicarlo sobre el valor del elemento del html que tenga ese ID
     if (validation === false) {
-      document.getElementById("answer").innerHTML = "Tu tarjeta no es válida" //si se obtiene un falso, modificar el contenido del elemento con ese ID y dar el mensaje
+      document.getElementById("answerInvalid").innerHTML = "Tu tarjeta no es válida" //si se obtiene un falso, modificar el contenido del elemento con ese ID y dar el mensaje
     } 
     else {
-      document.getElementById("answer").innerHTML = "Tu tarjeta es válida" //si no es falso, es verdadero y entonces, modificar el contenido del elemento con ese ID y dar el mensaje
+      document.getElementById("answerValid").innerHTML = "Tu tarjeta es válida" //si no es falso, es verdadero y entonces, modificar el contenido del elemento con ese ID y dar el mensaje
     } 
   }
   else if (reviewer === false) { //si reviewer obtiene el valor de false fue porque el usuario escribio algún caracter distinto a números enteros y entonces...

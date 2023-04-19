@@ -19,7 +19,7 @@
         <section class="creditNumber" id="creditNumber">
           <p class="explanation" id="explanation">Para continuar con el pago, valida el número de tu tarjeta de crédito</p>
           <label class="labelCreditNumber" id="labelCreditumber"> <b>Número de tarjeta</b><!--negritas--> </label> 
-          <input type="text" class="inputCreditNumber" id="inputCreditNumber" name="inputCreditNumber" placeholder=" XXXX XXXX XXXX XXXX XX" required> <!--placeholder para que salga un contenido dentro del input y despues desaparezca en cuando comiences a escribir-->     
+          <input type="text" class="inputCreditNumber" id="inputCreditNumber" name="inputCreditNumber" placeholder=" XXXX XXXX XXXX XXXX XX" maxlength="18" required> <!--placeholder para que salga un contenido dentro del input y despues desaparezca en cuando comiences a escribir-->     
         </section>
         <br>
         <!--BOTON VALIDAR-->
@@ -29,7 +29,8 @@
         <br>
         <!--ETIQUETA CON RESPUESTA DE VALIDACIÓN-->
         <section class="answer" id="answerValidation">
-          <label class="answer" id="answer"><b></b></label>
+          <label class="answerValid" id="answerValid"><b></b></label>
+          <label class="answerInvalid" id="answerInvalid"><b></b></label>
           <label class="review" id="review"><b></b></label>
         </section>
       </center>
